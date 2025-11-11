@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/ayik/Dev/Nix/cmake-hello/build/apple-arm64/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

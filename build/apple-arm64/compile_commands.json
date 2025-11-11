@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/ayik/Dev/Nix/cmake-hello/build/apple-arm64",
-  "command": "/usr/bin/clang++   -std=gnu++17 -arch arm64 -mmacosx-version-min=13.0 -o CMakeFiles/hello_cmake.dir/src/main.cpp.o -c /Users/ayik/Dev/Nix/cmake-hello/src/main.cpp",
-  "file": "/Users/ayik/Dev/Nix/cmake-hello/src/main.cpp",
-  "output": "CMakeFiles/hello_cmake.dir/src/main.cpp.o"
-}
-]
