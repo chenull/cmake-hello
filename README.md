@@ -33,6 +33,25 @@ cmake -S /Users/ayik/Dev/Nix/cmake-hello -B /Users/ayik/Dev/Nix/cmake-hello/buil
 cmake --build /Users/ayik/Dev/Nix/cmake-hello/build/linux-x86_64
 ```
 
+## Installing
+
+Use `cmake --install` with the build directory. Override the prefix with
+`--prefix` if needed.
+
+### Apple ARM64 install example
+
+```bash
+cmake --install /Users/ayik/Dev/Nix/cmake-hello/build/apple-arm64 \
+  --prefix /Users/ayik/Dev/Nix/cmake-hello/install/apple-arm64
+```
+
+### Linux x86_64 install example
+
+```bash
+cmake --install /Users/ayik/Dev/Nix/cmake-hello/build/linux-x86_64 \
+  --prefix /Users/ayik/Dev/Nix/cmake-hello/install/linux-x86_64
+```
+
 ## Running
 
 After building, run the executable from the corresponding build directory:
